@@ -1,5 +1,11 @@
 package cn.kiloword.taocp.ex1_1_8;
 
+/**
+ * Reference: https://readingtaocp.wordpress.com/2008/09/13/markov-algorithms-in-scala/
+ * 
+ * @author fangyun
+ *
+ */
 public class Markov {
 	private static Algorithm absDiff = new Algorithm(new StepParams[] { new StepParams("ab", "", 0, 1),
 			new StepParams("a", "c", 1, 2), new StepParams("b", "c", 2, 3) });
