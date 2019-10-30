@@ -71,7 +71,7 @@ http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=000374290
 * ex6. 参见P7, 公式=$(12*ln(2)/\pi^2)*ln(n)$. 
   So $T_5=(12*0.693147181/9.869604401)*1.609437912=1.356379413$
 
-* ex8. 参考：$a^mb^n = a^{gcb(m,n)}$
+* ex8. 参考：
   * https://www.amazon.com/Foundations-Mathematical-Logic-Dover-Mathematics/dp/0486634620
   * https://readingtaocp.wordpress.com/category/vol1/
   * https://books.google.com/books?id=27dkTJFrLZIC&printsec=frontcover#v=onepage&q&f=false
