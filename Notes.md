@@ -68,14 +68,14 @@ http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=000374290
 
 ## 4 Section 1.1 Exercise
 
-* ex6. 参见P7, 公式=$(12*ln(2)/\pi^2)*ln(n)$. 
+* Ex6. 参见P7, 公式=$(12*ln(2)/\pi^2)*ln(n)$. 
   So $T_5=(12*0.693147181/9.869604401)*1.609437912=1.356379413$
-
-* ex8. 参考：
+* Ex8. 参考：
   * https://www.amazon.com/Foundations-Mathematical-Logic-Dover-Mathematics/dp/0486634620
   * https://readingtaocp.wordpress.com/category/vol1/
   * https://books.google.com/books?id=27dkTJFrLZIC&printsec=frontcover#v=onepage&q&f=false
   * http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=001041143
   * https://en.wikipedia.org/wiki/Haskell_Curry
   * https://stackoverflow.com/questions/26742562/knuth-the-art-of-computer-programming-ex-1-1-8?noredirect=1&lq=1
-
+* Ex9. 参考
+  * http://tord.net/section.1.1.html , 关键有： $f_1(t_{Q_2}(q_2))=t_{Q_2}(f^k_2(q_2))$
