@@ -1,6 +1,6 @@
 # Notes for TAOCP
 
-##1 算法的形式化描述
+##算法的形式化描述
 
 我们定义一个**计算方法**为一个四元组（**Q**, **I**, **Ω**, f）,每个字母的意义为:
 **Q**: 表示计算状态的集合
@@ -14,7 +14,7 @@ f: 表示计算规则的集合
 ![](https://www.ituring.com.cn/download/01Qie9tiPe45)
 如果k是使![](https://www.ituring.com.cn/download/01Qie9waVPrX)在**Ω**中为最小的整数，那么就说这个计算序列在k步 中终止，而且在此种情况下说x产生了输出![](https://www.ituring.com.cn/download/01Qie9waVPrX)。可能有些序列永远不会终止，这只能称为一个**计算方法**，而不能称之为**算法**。 **算法**是一种对**I**中所有的x在有限步中终止的**计算方法**。
 
-## 2 欧几里得算法的形式化描述
+## 欧几里得算法的形式化描述
 
 **Q**定义为所有单点(n)，所有有序偶(m, n)和所有有序四元组（m, n , r, 1) , (m, n , r, 2)和（m, n ,q,3)的集合。 其中m、n、q为正整数， q为非负整数。
 
@@ -40,7 +40,7 @@ $$
 
 
 
-## 3 可行算法的形式化描述
+## 可行算法的形式化描述
 
 ### 3.1 Markov algorithm
 
@@ -66,7 +66,7 @@ http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=000374290
 
 
 
-## 4 Section 1.1 Exercise
+## Section 1.1 Exercise
 
 * Ex6. 参见P7, 公式=$(12*ln(2)/\pi^2)*ln(n)$. 
   So $T_5=(12*0.693147181/9.869604401)*1.609437912=1.356379413$
@@ -79,3 +79,9 @@ http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=000374290
   * https://stackoverflow.com/questions/26742562/knuth-the-art-of-computer-programming-ex-1-1-8?noredirect=1&lq=1
 * Ex9. 参考
   * http://tord.net/section.1.1.html , 关键有： $f_1(t_{Q_2}(q_2))=t_{Q_2}(f^k_2(q_2))$
+
+## Section 1.2.1 Mathematical Induction
+
+* $1+3+5+...+(2n+1)=n^2$
+* Fibonacci inequality: $F(n) \leq (\frac{1+\sqrt{5}}{2})^{n-1}$
+* 
