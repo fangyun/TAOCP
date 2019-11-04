@@ -66,7 +66,7 @@ http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=000374290
 
 
 
-## Section 1.1 Exercise
+## Section 1.1 Exercises
 
 * Ex6. 参见P7, 公式=$(12*ln(2)/\pi^2)*ln(n)$. 
   So $T_5=(12*0.693147181/9.869604401)*1.609437912=1.356379413$
@@ -84,4 +84,38 @@ http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=000374290
 
 * $1+3+5+...+(2n+1)=n^2$
 * Fibonacci inequality: $F(n) \leq (\frac{1+\sqrt{5}}{2})^{n-1}$
-* 
+* Extended Euclid Algorithm and prove
+* Inductive assertion
+* invarants
+* weakest precondition
+* "Assigning Meanings to Programs"
+* "A Discipline of Programming"
+
+## Section 1.2 Exercises
+
+* Ex8. 
+$$
+\begin{align*}
+let \space [(n-1)^2+n]&=n^2-n+1=a, \\
+let \space \{[(n+1)-1)]^2+(n+1)\}&=n^2+n+1=b \\
+support \space n^3 &= a+(a+2)+....+[a+2(n-1)] , then\\
+(n+1)^3 &= (n^2+2n+1)(n+1) \\
+		&= \frac{(2(n^2+n+1)+2n)(n+1)}{2} \\
+		&= \frac{(2b+2n)(n+1)}{2} \\		
+		&= b+(b+2)+...+(b+2n) \\
+\end{align*}
+$$
+* Ex8-b.
+$$
+\begin{align*}
+support \space 1^3+2^3+...n^3 	&=(1+2+...+n)^2, then \\
+			1^3+2^3+...+(n+1)^3	&=(1+2+...+n)^2+(n+1)^3 \\
+								&=(1+2+...+n)^2+(n+1)^3 \\
+								&=(\frac{(n+1)n}{2})^2+(n+1)^3 \\
+								&=(n+1)^2(\frac{n^2+4n+4}{4}) \\
+								&=(n+1)^2(\frac{(n+2)}{2})^2 \\
+								&=(\frac{(n+2)(n+1)}{2})^2 \\
+								&=(1+2+...+(n+1))^2
+\end{align*}
+$$
+
