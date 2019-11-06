@@ -78,7 +78,7 @@ http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=000374290
   * https://en.wikipedia.org/wiki/Haskell_Curry
   * https://stackoverflow.com/questions/26742562/knuth-the-art-of-computer-programming-ex-1-1-8?noredirect=1&lq=1
 * Ex9. 参考
-  * http://tord.net/section.1.1.html , 关键有： $f_1(t_{Q_2}(q_2))=t_{Q_2}(f^k_2(q_2))$
+  * http://tord.net/section.1.1.html , 关键有： $f_1(t_{Q_2}(q_2))=t_{Q_2}(f^k_2(q_2))$ , that is "存在函数$t_{Q_2}$，使得代码的状态的$t$函数的算法$f_1$计算，等于代码状态的k次迭代$f_2$代码计算后的$t$函数"
 
 ## Section 1.2.1 Mathematical Induction
 
@@ -91,14 +91,14 @@ http://opac.nlc.cn/F?func=item-global&doc_library=NLC09&doc_number=000374290
 * "Assigning Meanings to Programs"
 * "A Discipline of Programming"
 
-## Section 1.2 Exercises
+## Section 1.2.1 Exercises
 
 * Ex8. 
 $$
 \begin{align*}
-let \space [(n-1)^2+n]&=n^2-n+1=a, \\
-let \space \{[(n+1)-1)]^2+(n+1)\}&=n^2+n+1=b \\
-support \space n^3 &= a+(a+2)+....+[a+2(n-1)] , then\\
+Let \space [(n-1)^2+n]&=n^2-n+1=a, \\
+Let \space \{[(n+1)-1)]^2+(n+1)\}&=n^2+n+1=b \\
+if \space n^3 &= a+(a+2)+....+[a+2(n-1)] , then\\
 (n+1)^3 &= (n^2+2n+1)(n+1) \\
 		&= \frac{(2(n^2+n+1)+2n)(n+1)}{2} \\
 		&= \frac{(2b+2n)(n+1)}{2} \\		
@@ -108,7 +108,7 @@ $$
 * Ex8-b.
 $$
 \begin{align*}
-support \space 1^3+2^3+...n^3 	&=(1+2+...+n)^2, then \\
+if \space 1^3+2^3+...n^3 	&=(1+2+...+n)^2, then \\
 			1^3+2^3+...+(n+1)^3	&=(1+2+...+n)^2+(n+1)^3 \\
 								&=(1+2+...+n)^2+(n+1)^3 \\
 								&=(\frac{(n+1)n}{2})^2+(n+1)^3 \\
@@ -118,4 +118,30 @@ support \space 1^3+2^3+...n^3 	&=(1+2+...+n)^2, then \\
 								&=(1+2+...+(n+1))^2
 \end{align*}
 $$
+* Ex10. Key steps: 
+  $$
+  \begin{align*}
+  2^{n+1} &= 2*2^n \\
+  		&> 2*n^3 \\
+  		&> (1+\frac{1}{n})*n^3
+  \end{align*}
+  $$
 
+* Ex11. Key steps: Try calculate first three items，conjecture formula：
+  $$
+  \begin{align*}
+  For \space S_k 	&= 1/5 \space ,where \space k=1 \\
+  				&= -2/17 \space , where \space k=2 \\
+  				&= 3/37 \space , where \space k=3 \\
+  \end{align*}
+  $$
+
+* Ex12. TBD. Ref  http://tord.net/section.1.2.1.html
+* Ex13.  TBD. Ref http://tord.net/section.1.2.1.html
+* Ext15. TBD. Ref http://tord.net/section.1.2.1.html. **良序化(Well-ordering)**是**广义归纳法(Generalized Induction)**的基础。
+
+## Section 1.2.2 Exercises
+
+* Ex5. binary expansion
+* Ex8. decimal expansion
+* Ex22. natural logarithms and common logarithms can be used to get approximate values of binary logarithms
