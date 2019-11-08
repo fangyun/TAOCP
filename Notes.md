@@ -145,3 +145,27 @@ $$
 * Ex5. binary expansion
 * Ex8. decimal expansion
 * Ex22. natural logarithms and common logarithms can be used to get approximate values of binary logarithms
+
+## Section 1.2.3 Sums and Products
+
+### 1 Rules for Sums
+* Rule a: Distributive law, for products of sums:
+  
+  * $\displaystyle (\sum_{R(j)}a_j)(\sum_{S(j)}b_j)=\sum_{R(j)}(\sum_{S(j)}a_jb_j)$ ，和的积=积的和
+  
+* Rule b: Change of variable:
+  * $\displaystyle \sum_{R(i)}a_i=\sum_{R(j)}a_j=\sum_{R(p(j))}a_{p(j)}$
+  * Important cases: $\displaystyle \sum_{R(j)}a_j=\sum_{R(c+j)}a_{c+j}=\sum_{R(c-j)}a_{c-j}$, 下标的位移
+  
+* Rule c: Interchanging order of summation:  
+  
+  * Example 2.  : $\displaystyle \sum_{i=1}^{n}\sum_{j=1}^{i} a_{ij}=\sum_{j=1}^{n}\sum_{i=j}^{n}a_{ij}=\sum_{i=1}^{n}\sum_{j=i}^{n}a_{ij}$  . 内循环的内变量j与外变量关系j$\in$ (1..i) 等价为 j$\in$(i..n).
+  
+* Rule d: Manipulating the domain : 
+
+  * $\displaystyle \sum_{R(j)}a_j+\sum_{S(j)}a_j=\sum_{R(j) or S(j)}a_j+\sum_{R(j) and S(j)}a_j$
+
+### 2 Examples
+
+* geometric progression
+* arithmetic progression

@@ -20,3 +20,18 @@ Introduce: integer, rational number,irrational number, real number, complex numb
 
 Computation of numbers: power, logarithm. $lg=log_2$,$ln=log_e$. Compute logarithm.
 
+#### Section 1.2.3 Sums and Products
+
+Introduce: Sum and Product notation, and each computation notation have 4 rules, and bracket notation.
+
+#### Section 1.2.4 Integer Function and Elementary Number Theory
+
+Introduce integer function , include: floor: $\lfloor x \rfloor$ , ceiling $\lceil x \rceil$;  remainder = a mod b, quotient =$\lfloor a/b \rfloor$, a\b, modulo, relatively prime: $x \perp y$, Fermat's theorem
+
+#### Section 1.2.5 Permutations and Factorials
+
+Introduce permutaion and compute formula factorials $P_n=n!$
+
+#### Section 1.2.6 Biominal Coefficient
+
+Introduce biominal coefficient : ${n \choose k}$
