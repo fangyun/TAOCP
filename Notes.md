@@ -169,3 +169,38 @@ $$
 
 * geometric progression
 * arithmetic progression
+
+## Section 1.2.6 二项系数
+
+### 1 Operation Laws
+
+* Representation by Factorials
+  * ${n \choose k}=\frac{n!}{k!(n-k)!}$
+* Symmetry Condition
+  * ${n \choose k}={n \choose n-k}$
+* Move in or out of parentheses.
+  * ${r \choose k}=\frac{r}{k}{r-1 \choose k-1}$
+  * ${r \choose k}=\frac{r}{r-k}{r-1 \choose k}$
+* Addition formula.
+  * ${r \choose k}={r-1 \choose k}+{r-1 \choose k-1}$
+* Summation formulas.
+  * $\displaystyle \sum_{k=0}^n{k \choose m}={n+1 \choose m+1}$
+* The binomial theorem.
+  * $\displaystyle (x+y)^r=\sum_k{r \choose k}x^ky^{r-k}$
+
+## Section 1.2.7 Harmonic Number
+
+* $\displaystyle H_n=\sum_{k=1}^{n}\frac{1}{k}$
+
+## Section 1.2.8 Fabonacci Numbers
+
+## Section 1.2.9 Generating Functions
+
+## Section 1.2.10 Analysis of An Algorithm
+
+## * Section 1.2.11 Asymptotic Representations
+
+# 1.3 Mix
+
+### 1.3.1 Description of Mix
+

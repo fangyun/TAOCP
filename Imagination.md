@@ -35,3 +35,7 @@ Introduce permutaion and compute formula factorials $P_n=n!$
 #### Section 1.2.6 Biominal Coefficient
 
 Introduce biominal coefficient : ${n \choose k}$
+
+#### Section 1.2.10 Analysis of An Algorithm
+
+From 算法的每步执行次数，分析：排列，组合，概率 -> 精确推导执行次数的函数。使用Generating Function简化函数，得到结果。分析：（Min，Max，Aveg，Dev）。最小，最大，平均，均方差来估计算法的性能。
